@@ -35,6 +35,7 @@ A minimal DML page will look like this:
 3. DOM references are returned as LOCAL variables, removing unwanted side effects and naming conflicts. DOM elements created inside a class are owned only by the instantiated object. True encapsulation can be realized.
 4. Functions act as templates: Groups of DOM elements can be created by functions. As functions can use any kind of logic, functional templating is far more flexible than other approaches.
 5. Classes can be used to implement DOM objects AND event logic. Class objects can therefore generate very complex web objects, that are still completely encapsulated. This is the true basis for reusable web components.
-6. Yes - it´s true: DML creates dynamic web pages by direct DOM manipulation, which is not search engine friendly (except with google, which can handle this). But this is not different from React or Vue.  
+6. The DML library is organized in multiple scripts. The first - and always necessary - is DML.js. Functional units (like Menues, Table handlers etc.) are put together in separate units that usually contain only one class definition. General scripts reside in the "lib"-folder, project specific scripts should be placed on the same level as your html-files. 
+7. Yes - it´s true: DML creates dynamic web pages by direct DOM manipulation, which is not search engine friendly (except with google, which can handle this). But this is not different from React or Vue.  
 
 For more information see: https://efpage.de/DML/DML_homepage/
