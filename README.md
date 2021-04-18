@@ -1,5 +1,5 @@
 # DML
-An Object Oriented Web Programming Framework
+<b>An Object Oriented Web Programming Framework</b>
 
 DML is a Javascript framework for object oriented web programming. Unlike other frameworks it does not implement a new syntax or it´s own unique logic. Alle you need is already implemented in modern browsers. DML just adds a new and radical approach to use object oriented technics (OO) to create stunning web pages and powerful web applications using Javascript only. 
 
