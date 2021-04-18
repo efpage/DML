@@ -3,7 +3,7 @@
 
 DML is a Javascript framework for object oriented web programming. Unlike other frameworks it does not implement a new syntax or it´s own unique logic. All you need is already implemented in modern browsers. DML just adds a small set of function to let you use the HTML DOM API in a very convenient way. And it adds a new and radical approach to use object oriented technics (OO) to create stunning web pages and powerful web applications just using Javascript. 
 
-Don't be fooled by the apparent simplicity: DML provides a complete design platform with web components and templates - just in a very different way you may be used to. Just add the DML-Library to your website and start HTML-Programming... And let the power of OO be with you!
+Don't be fooled by the apparent simplicity: DML provides a complete design platform with web components and templates - just in a very different way you may be used to. This lib is made for OO-programmers rather than for web designers. Just add the DML-Library to your website and start HTML-Programming... And let the power of OO be with you!
 
 A minimal DML page will look like this:
 
