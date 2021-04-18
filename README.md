@@ -28,7 +28,6 @@ A minimal DML page will look like this:
 </html>
 ```
 
-For more information see: https://efpage.de/DML/DML_homepage/
 
 ## DML in a nutshell
 1. DML implements only a very small set of "generic" functions to let you use the HTML DOM API in a more "natural" way. Most HTML-tags are implemented as javascript functions: h1() creates a headline, p() create a paragraph and so on.
@@ -38,3 +37,4 @@ For more information see: https://efpage.de/DML/DML_homepage/
 5. Classes can be used to implement DOM objects AND event logic. Class objects can therefore generate very complex web objects, that are still completely encapsulated. This is the true basis for reusable web components.
 6. Yes - it´s true: DML creates dynamic web pages by direct DOM manipulation, which is not search engine friendly (except with google, which can handle this). But this is not different from React or Vue.  
 
+For more information see: https://efpage.de/DML/DML_homepage/
