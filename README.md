@@ -1,9 +1,31 @@
 # DML
 <b>An Object Oriented Web Programming Framework</b>
 
-DML is a Javascript framework for object oriented web programming. Unlike other frameworks it does not implement a new syntax or it´s own unique logic. All you need is already implemented in modern browsers. DML just adds a small set of function to let you use the HTML DOM API in a very convenient way. And it adds a new and radical approach to use object oriented technics (OO) to create stunning web pages and powerful web applications just using Javascript. 
+DML is a new and radical approach to make web programming more efficient. Frameworks like VUE or REACT use Javascript to create dynamic content too, but need their own and very special ecosystem. This brings additional complexity to web design - and a long and steep learning curve. 
 
-Don't be fooled by the apparent simplicity: DML provides a complete design platform with web components and templates - just in a very different way you may be used to. This lib is made for OO-programmers rather than for web designers. Just add the DML-Library to your website and start HTML-Programming... And let the power of OO be with you!
+DML is different, it was designed to make web programming easier and more efficient. Why use different languages like HTML,CSS,JS,AJAX,JQUERY and PHP to solve 1 single task? 
+
+The initial approach was simple, but was found to be amazingly useful: DML exposes (most) HTML-tags as Javascript functions. So, instead of creating a `<h1>Headline</h1>`-tag you can write `h1("Headline")` to create a DOM-object in Javascript now. What is the advantage, as the result will be identical?
+
+<b>All DML-functions return a reference</b> to the newly created object, that can directly be assigned to a JS-variable. In standard web sites - as html and JS are parsed by different systems - we need some ID´s to communicate between HTML and JS. The usual way is
+```
+  <h1 id="MyHeadline">Headline</h1>
+  <script>
+    var h = document.getElementById("MyHeadline");
+    h.textContent = "New Headline";
+  </script>
+```
+BUT (!!!) id´s are always! globally scoped, so encapsulation is simply not possible in web sites. With DML, things are different: you can write the same script as follows
+
+```
+  <script>
+    h = h1("MyHeadline");
+    h.textContent = "New Headline";
+  </script>
+```
+Sounds like a small advantage, but in fact, this is a huge step! DML brings Javascript closer to the DOM, which has a great impact: DOM-elements are created as part of Javascript object, so they can be fully encapsulated too. No need to create a virtual DOM, no need to use a shadow DOM. Pleas try out to see the advantages. DML-websites run smooth without unnecessary page refreshes even with very complex content. The <a href="https://efpage.de/DML/DML_homepage/">DML-homepage</a> was created only using DML!
+
+Don't be fooled by the apparent simplicity: DML provides a complete design platform to create web components and templates - just in a very different way you may be used to. This lib is made for OO-programmers rather than for web designers. Just add the DML-Library to your website and start HTML-Programming... And let the power of OO be with you!
 
 A minimal DML page will look like this:
 
